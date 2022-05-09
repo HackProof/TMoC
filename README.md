@@ -23,7 +23,7 @@ ethereum.request({ method: 'eth_requestAccounts' });
 ### Publications / Presentations
 #### [Conference Name]
 
-We've been happy to show TMOC in a number of --- sessions.
+Black Hat Asia 2022 Arsenal, Marina Bay Sands, Singapore, May 10-13, 2022.
 
 ### License
 ```
