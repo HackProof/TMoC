@@ -40,7 +40,7 @@
             <ul class="navbar-nav ml-md-auto d-block d-sm-flex d-md-flex">
             <?php
                 if($record) { # if logged in
-                    if($record['u_id']=="sane") { # admin only
+                    if($record['u_id']=="test") { # admin only
             ?>
             <li class="nav-item">
                 <a class="nav-link" href="./evaluate">
