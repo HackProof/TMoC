@@ -1,6 +1,6 @@
 <?php
-$mysql_host = "127.0.0.1";
-$mysql_port = "3306";
+$mysql_host = "localhost";
+$mysql_port = "8888";
 $mysql_user = "root";	# ID
 $mysql_password = "DB_password";	# PW
 $mysql_db = "user_db";			# DB name
