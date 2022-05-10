@@ -16,6 +16,10 @@
   $count = mysqli_num_rows($result);
 ?>
 <script src="https://code.jquery.com/jquery-3.4.0.min.js" integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/sha256.js"></script><!-- CryptoJS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/sha256-min.js"></script><!-- CryptoJS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/components/lib-typedarrays-min.js"></script><!-- CryptoJS -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script><!-- CryptoJS -->
 <script type="text/javascript" src="./js/lib/web3-light@0.20.6.js"></script>
 <script type="text/javascript" src="./js/lib/moment.js"></script>
 <script type="text/javascript" src="./js/lib/moment_locale.js"></script>
