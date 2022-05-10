@@ -1,5 +1,4 @@
-<!-- 관리자가 각 카테고리별 항목을 평가하기 위한 페이지 -->
-<!-- 산정된 점수를 DB members의 scoretotal에 합산하여 저장 -->
+
 <!DOCTYPE html>
 <?php
 $title = 'TMOC';
@@ -10,7 +9,6 @@ include('navbar.php');
     if(!isset($_SESSION['id'])){
         echo "<script>location.href='./login.php';</script>";
     }
-    else{
 ?>
 <html>
 <head>
@@ -40,7 +38,6 @@ include('navbar.php');
         <input class="form-control" type="text" id="account" value="<?php echo $record["u_walletaddress"]; ?>" placeholder="Metamask wallet address" required />
       </div>
       <div class="form-group">
-        <!-- 여기에 각 항목에 대한 평가 기능 추가 -->
         <label>
           Input Evaluator ID
         </label>
